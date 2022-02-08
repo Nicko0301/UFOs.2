@@ -65,7 +65,7 @@ function updateFilters() {
     });
     
     // 10. Finally, rebuild the table using the filtered data
-    builtTable(filteredData);
+    buildTable(filteredData);
   }
   
   // 2. Attach an event to listen for changes to each filter
@@ -73,3 +73,4 @@ function updateFilters() {
   
   // Build the table when the page loads
   buildTable(tableData);
+g
